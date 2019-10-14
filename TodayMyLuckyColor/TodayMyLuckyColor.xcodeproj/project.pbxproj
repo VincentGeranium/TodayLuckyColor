@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200A4D092354BD5800C2499F /* ColorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A4D082354BD5800C2499F /* ColorList.swift */; };
 		206EABCC234C78D5005E73D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206EABCB234C78D5005E73D7 /* AppDelegate.swift */; };
 		206EABCE234C78D5005E73D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206EABCD234C78D5005E73D7 /* ViewController.swift */; };
 		206EABD1234C78D5005E73D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206EABCF234C78D5005E73D7 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		200A4D082354BD5800C2499F /* ColorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorList.swift; sourceTree = "<group>"; };
 		206EABC8234C78D5005E73D7 /* TodayMyLuckyColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayMyLuckyColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		206EABCB234C78D5005E73D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		206EABCD234C78D5005E73D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				206EABCB234C78D5005E73D7 /* AppDelegate.swift */,
 				206EABCD234C78D5005E73D7 /* ViewController.swift */,
+				200A4D082354BD5800C2499F /* ColorList.swift */,
 				206EABCF234C78D5005E73D7 /* Main.storyboard */,
 				206EABD2234C78D6005E73D7 /* Assets.xcassets */,
 				206EABD4234C78D6005E73D7 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200A4D092354BD5800C2499F /* ColorList.swift in Sources */,
 				206EABCE234C78D5005E73D7 /* ViewController.swift in Sources */,
 				206EABCC234C78D5005E73D7 /* AppDelegate.swift in Sources */,
 			);

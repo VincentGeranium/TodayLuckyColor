@@ -89,7 +89,14 @@ class ViewController: UIViewController {
     }
     
     @objc private func didTppedSelectBtn(_ sender: UIButton) {
-        print("tapped Btn")
+        var randomNumber = (arc4random_uniform(3) + 1)
+        
+        if ColorList.greenColor.colorNumber == randomNumber {
+            print("green, \(randomNumber)")
+        } else if ColorList.redColor.colorNumber == randomNumber {
+            print("red, \(randomNumber)")
+        }
+        
     }
     
 
